@@ -1,0 +1,197 @@
+/* Global Stylesheet */
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+  font-size: 4em; /* Adjust the font size for h1 */
+  /* margin-bottom: 0.5; */
+  padding-bottom: 0px;
+}
+
+#headblurb {
+  padding-top: 1px;
+  /* font-size: 1em; */
+  width: 50%;
+  margin: 0 auto;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+h3 text{
+  padding-top: 1px;
+  font-size: 1em;
+  width: 400px;
+  /* margin: 0 auto; */
+  justify-content: center;
+
+}
+
+h3 {
+  padding-top: 1px;
+  display: inline;
+  font-size: 1em;
+  /* margin: 0 auto; */
+  width: 400px;
+  justify-content: center;
+  /* width: 50% !important; */
+}
+
+h4 {
+  text-align: left;
+  padding-left: 30px;
+}
+
+
+h2 {
+  font-size: 2.25em; /* Adjust the font size for h1 */
+  /* margin-top: 0; */
+  padding-top: 2px;
+  line-height: 40px;
+}
+
+.custom-tooltip {
+  background-color: #03211F; /* Change the background color */
+  color: aliceblue; /* Change the text color */
+  border-color: aliceblue; /* Set border color */
+  padding: 10px 20px; /* Adjust the padding */
+  border-radius: 5px; /* Add rounded corners */
+  /* Any other styles you want to apply */
+}
+
+.y-axis text {
+  font-size: 12px;
+}
+
+
+#chartContainer {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  #buttonsContainer {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin: auto;
+  }
+  #legend {
+    padding-top: 30px;
+
+  }
+
+  #buttonsContainer button {
+    color: #F4E8D0; /* Change the text color */
+    font-size: 16px;
+    border-color: #F4E8D0; /* Remove the border */
+    padding: 10px 20px; /* Adjust the padding */
+    margin-right: 10px; /* Increase space between buttons */
+    border-radius: 50px; /* Add rounded corners */
+    cursor: pointer; /* Show cursor as pointer on hover */
+    background-color: #03211F;
+  }
+  /* Select an element by its ID */
+
+  /* #selectedbutton {
+    background-color: #F4E8D0;
+    color: #03211F;
+  }
+   */
+  body {
+    text-align: center;
+    background-color: #03211F; /* Set the background color to a light gray */
+    color:#F4E8D0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.container {
+  display: flex;
+}
+
+.middlechart {
+  display: flex;
+}
+
+.chart-container {
+  flex: 1;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.middlechartcontainer {
+  flex: 1;
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+.text-info {
+  flex: 1;
+  overflow-y: auto; /* Add scrollbar if content overflows */
+  justify-content: left;
+  margin: auto;
+  padding-right: 50px;
+  text-align: left;
+}
+
+.text-info-chart2 {
+  flex: 1;
+  text-align: left;
+  overflow-y: auto; /* Add scrollbar if content overflows */
+  justify-content: center;
+  margin: auto;
+  width: 1000px;
+  padding-left: 80px;
+  padding-right: 40px;
+}
+.text-info-chart2 h2{
+  text-align: center;
+  flex: 1;
+  overflow-y: auto; /* Add scrollbar if content overflows */
+  
+}
+
+.text-info-chart3 {
+  text-align: h2;
+  flex: 1;
+  overflow-y: auto; /* Add scrollbar if content overflows */
+  justify-content: center;
+  margin: auto;
+  padding-left: 80px;
+  padding-right: 40px;
+}
+.text-info-chart3 h2{
+  text-align: center;
+  flex: 1;
+  overflow-y: auto; /* Add scrollbar if content overflows */
+  
+}
+
+.text-info h2{
+  text-align: center;
+  flex: 1;
+  overflow-y: auto; /* Add scrollbar if content overflows */
+  
+}
+#tooltip {
+  position: auto;
+  margin: auto;
+  opacity: 0;
+  background-color: #03211F;
+  color: #03211F;
+  border-radius: 4px;
+  padding: auto;
+  font-size: 12px;
+  pointer-events: none;
+  text-align: left;
+  width: 250px; /* Adjust the width as needed */
+  text-align: center; /* Ensure text alignment */
+  line-height: 1.5; /* Adjust line height for readability */
+  white-space: pre-wrap; /* Allow wrapping of text */
+}
+
+.right-section {
+  flex: 1; /* Occupy available space */
+}

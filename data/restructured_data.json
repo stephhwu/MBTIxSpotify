@@ -1,0 +1,73 @@
+{
+  "name": "Function Pairs",
+  "children": [
+    {
+      "name": "SP",
+      "children": [
+        {
+          "name": "ESFP"
+        },
+        {
+          "name": "ISFP"
+        },
+        {
+          "name": "ISTP"
+        },
+        {
+          "name": "ESTP"
+        }
+      ]
+    },
+    {
+      "name": "SJ",
+      "children": [
+        {
+          "name": "ESFJ"
+        },
+        {
+          "name": "ESTJ"
+        },
+        {
+          "name": "ISTJ"
+        },
+        {
+          "name": "ISFJ"
+        }
+      ]
+    },
+    {
+      "name": "NT",
+      "children": [
+        {
+          "name": "INTJ"
+        },
+        {
+          "name": "ENTJ"
+        },
+        {
+          "name": "INTP"
+        },
+        {
+          "name": "ENTP"
+        }
+      ]
+    },
+    {
+      "name": "NF",
+      "children": [
+        {
+          "name": "INFJ"
+        },
+        {
+          "name": "INFP"
+        },
+        {
+          "name": "ENFP"
+        },
+        {
+          "name": "ENFJ"
+        }
+      ]
+    }
+  ]
+}
